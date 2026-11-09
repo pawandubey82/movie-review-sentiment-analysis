@@ -10,8 +10,10 @@ env/
 
 # Dataset (download from Kaggle) and trained models (regenerate with main.py)
 IMDB Dataset.csv
-outputs/
-*.pkl
+outputs/*
+!outputs/best_sentiment_model.pkl
+!outputs/all_models.pkl
+!outputs/model_comparison.csv
 
 # Editor / local settings
 .vscode/
